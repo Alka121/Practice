@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="Assets/CSS/Style.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend>
+            <h2>Form</h2>
+        </legend>
+        <form id="form">
+            <input type="text" id="name" name="name" placeholder="Enter The Name" autocomplete="name">
+            </input><br><br>
+
+            <input type="text" id="job" name="job" placeholder="Enter Your job Details" autocomplete="job">
+            </input><br><br>
+
+            <input type="text" id="exp" name="experience" placeholder="Enter Your Job Experience" autocomplete="exp">
+            </input><br><br>
+
+            <input type="button" value="submit" id="btn" onClick="Submit()">
+
+            <input type="reset" value="reset">
+        </form>
+    </fieldset>
+    <br>
+    <div id="msg"></div><br>
+    <fieldset>
+        <legend>
+            <h2>Data From Local Storage</h2>
+        </legend>
+        <table border="2" id="table">
+            <tr>
+                <td class="col">Name</td>
+                <td class="col">Job</td>
+                <td class="col">Experince</td>
+                <td class="col">Action</td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+<script src="Assets/JS/Script.js"></script>
+
+</html>
